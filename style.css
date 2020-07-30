@@ -1,0 +1,121 @@
+/* Element Selectors */ 
+
+html {
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,sans-serif;
+}
+
+body {
+	max-width:50em;
+	margin:0;
+}
+
+header{
+}
+
+main{
+	margin: 0;
+	padding: 5px;
+	background-color: whitesmoke;
+}
+
+h1{
+	text-align:center;
+	margin: 10px;
+	padding: 10px;
+}
+
+h2{
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+}
+
+nav{
+  overflow: hidden;
+  background-color:#4c8bf5;
+  height: 56px;
+  vertical-align: middle;  
+}
+
+div {
+	padding: 5px;
+}
+figure {
+	/*border: thin silver solid;*/
+	margin: 0.5em;
+  	padding: 0.5em;
+}
+img{
+	width: 80%;
+}
+figcaption{
+	/*border: thin silver solid;*/
+	font-style: italic;
+
+}
+ul {
+	list-style: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Class Selectors - used to select more than one element */
+
+.a-nav {
+	color: white;
+}
+
+.table-1 {
+	border-collapse: collapse;
+	font-size: 20px;
+	margin: 25px 0;
+	font-size: 0.9em;
+	minimum-width: 400px;
+}
+
+.table-1 th{
+	background-color: #4c8bf5;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+
+.table-1 th,
+.table-1 td {
+	padding: 12px 15px;
+}
+
+.table-1 tbody tr {
+	border-bottom: 1px solid black;
+}
+.contact-form{
+	max-width: 500px;
+	padding:2rem;
+	border: 2px solid;
+}
+label {
+	display: block;
+	padding: 3px;
+}
+input{
+	display:block;
+	padding: 3px;
+	width: 100%;
+}
+#sendBtn{
+	border: 0;
+	background: pink;
+	padding: .5rem;
+	color:white;
+	margin: 1rem 0;
+	width: auto;
+	cursor: pointer;
+/* Id selectors - used for just one element. Use hashtag # for these   */
+}
+footer{
+	background-color: orange;
+	padding: 10px;
+}
