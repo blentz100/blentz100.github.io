@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8primary">
+		<meta name="viewport" content="width=device-width",
+			initial-scale=1.0">
+		<title>Bootstrap Bootcamp</title>
+		<link rel="stylesheet"
+		href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+
+		
+	</head>
+	<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-primary"k>
+		<a class="navbar-brand" href="index.html">Bootstrap Bootcamp</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+											   data-target="#navbarNavDropdown" 
+											   aria-controls="navbarNavDropdown"
+											   aria-expanded="false"
+											   aria-label="Toggle navigation">
+
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="requestinfo.html">Request Info</a>
+				</li>
+				<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+												 role="button"
+												 data-toggle="dropdown"
+												 aria-haspopup="true"
+												 aria-expanded="false">
+				Resources	
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					
+					<a class="dropdown-item" href="https://getbootstrap.com"
+						target="_blank">Bootstrap Home Page</a>
+					<a class="dropdown-item" href="https://www.promineotech.com"
+						target="_blank">Promineo Tech</a>
+					<a class="dropdown-item" href="https://promineotech.moodle.school"
+						target="_blank">Promineo Tech Moodle</a>
+
+					<div class="dropdown-divider"></div>
+
+					<a class="dropdown-item" href="https://stackoverflow.com"
+						target="_blank" >Stack Overflow</a>
+					<a class="dropdown-item" href="https://www.freecodecamp.org"
+						target="_blank">Free Code Camp</a>
+					<a class="dropdown-item" href="https://developer.mozilla.org/en-US/"
+						target="_blank">MDN Docs <span class="badge
+							badge-primary badge-pill">New</span></a>
+
+				</li>
+				<li class="nav-item">
+					<button type="button" class="btn btn-primary">
+						profile <span class="badge badge-light">9</span>
+						<span class="sr-only">unread messages</span>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container my-4" >
+
+		<div class="row my-4">
+			<div class="col-sm">
+				<h1> Welcome to Bootstrap Bootcamp <h1>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm">
+				<div>This website is a project for the Promineo Tech Front End
+					Software Developer program. I'll be sharing some examples of
+				how to use bootstrap to style your webpage. </div>		
+			</div>
+			<div class="col-sm">
+				<img src="https://images.unsplash.com/photo-1546749876-2088f8b19e09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" class="img-fluid">
+			</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-sm">
+				<h2>Alerts</h2>
+				<p>Alerts give contextual feedback to users based on a variety of
+					conditions. Here is what the code looks like: </p> 
+				<pre class=".pre-scrollable">
+&ltdiv class="alert alert-primary" role="alert"&gt
+	Primary Alert
+&lt/div&gt
+&ltdiv class="alert alert-secondary" role="alert"&gt
+	Secondary Alert
+&lt/div&gt
+&ltdiv class="alert alert-success" role="alert"&gt
+	Success Alert
+&lt/div&gt
+&ltdiv class="alert alert-danger" role="alert"&gt
+	Danger Alert
+&lt/div&gt
+&ltdiv class="alert alert-warning" role="alert"&gt
+	Warning Alert
+&lt/div&gt
+&ltdiv class="alert alert-info" role="alert"&gt
+	Info Alert
+&lt/div&gt
+&ltdiv class="alert alert-light" role="alert"&gt
+	Light Alert
+&lt/div&gt
+&ltdiv class="alert alert-dark" role="alert"&gt
+	Dark Alert
+&lt/div&gt
+				</pre>
+			</div>
+
+
+			<div class="col-sm">
+				<h2>Output</h2>
+				<div class="alert alert-primary" role="alert">
+					Primary Alert
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					Secondary Alert
+				</div>
+				<div class="alert alert-success" role="alert">
+					Success Alert
+				</div>
+				<div class="alert alert-danger" role="alert">
+					Danger Alert
+				</div>
+				<div class="alert alert-warning" role="alert">
+					Warning Alert
+				</div>
+				<div class="alert alert-info" role="alert">
+					Info Alert
+				</div>
+				<div class="alert alert-light" role="alert">
+					Light Alert
+				</div>
+				<div class="alert alert-dark" role="alert">
+					Dark Alert
+				</div>
+
+
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm">
+				<h2>Alert Links</h2>
+				<p> Alert links provide convenient way to color links in alerts
+					with a matching color to the alert background color - using
+					the alert-link class.</p> 
+				<pre class=".pre-scrollable">
+&ltdiv class="alert alert-primary" role="alert"&gt
+	Primary Alert with a &lta href="https://www.google.com"
+	class="alert-link" target="_blank"&gt colored
+		link&lt/a&gt
+&lt/div&gt
+&ltdiv class="alert alert-primary" role="alert"&gt
+	Primary Alert with a &lta href="https://www.google.com"
+		target="_blank"&gt regular
+		link&lt/a&gt
+&lt/div&gt
+&ltdiv class="alert alert-secondary" role="alert"&gt
+	Secondary Alert with a &lta href="https://www.google.com"
+	class="alert-link" target="_blank"&gt colored
+		link&lt/a&gt
+&lt/div&gt
+&ltdiv class="alert alert-secondary" role="alert"&gt
+	Secondary Alert with a &lta href="https://www.google.com"
+		target="_blank"&gt
+		regular link&lt/a&gt
+&lt/div&gt
+				</pre>
+			</div>
+
+
+			<div class="col-sm">
+				<h2>Output</h2>
+				<div class="alert alert-primary" role="alert">
+					Primary Alert with a <a href="https://www.google.com"
+					class="alert-link" target="_blank"> colored
+						link</a>
+				</div>
+				<div class="alert alert-primary" role="alert">
+					Primary Alert with a <a href="https://www.google.com"
+						target="_blank"> regular
+						link</a>
+				</div>
+				
+				<div class="alert alert-secondary" role="alert">
+					Secondary Alert with a <a href="https://www.google.com"
+					class="alert-link" target="_blank"> colored
+						link</a>
+				</div>
+				<div class="alert alert-secondary" role="alert">
+					Secondary Alert with a <a href="https://www.google.com"
+						target="_blank">
+						regular link</a>
+				</div>
+
+				
+			</div>
+		</div>
+
+
+
+	</div>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+	</body>
+
+
+</html>
